@@ -5,6 +5,14 @@
   let searchedForText;
   const responseContainer = document.querySelector('#response-container');
 
+  /**
+   * Function wrapper to construct and execute XML async request
+   *
+   * @param {*} header ready to accept one header
+   * @param {*} callBackHandler
+   * @param {*} url
+   * @param {*} method
+   */
   function ajaxRequest(
     header = { name: '', value: '' },
     callBackHandler = () => {},

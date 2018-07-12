@@ -54,6 +54,7 @@
   function unsplashRequest() {
     const url = `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`;
     const headers = { Authorization: `Client-ID ${unsplashKey}` };
+    // Fetch Api use to make ajax request
     fetch(url, { headers })
       .then(function(response) {
         if (response.ok) {
@@ -70,6 +71,7 @@
 
   function articleRequest() {
     const url = `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=${newYorkTimeKey}`;
+    // Fetch Api use to make ajax request
     fetch(url)
       .then(function(response) {
         if (response.ok) {
