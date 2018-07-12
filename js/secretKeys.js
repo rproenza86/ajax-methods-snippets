@@ -1,0 +1,2 @@
+const unsplashKey = '';
+const newYorkTimeKey = '';
