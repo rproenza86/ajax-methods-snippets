@@ -24,3 +24,24 @@ The project is built with each of these techniques. You'll find one folder for e
     - https://unsplash.com
 
 2.  Update the key variables on file `js/secretKeys.js`
+
+## Reference
+
+### the XHR object
+    - https://www.html5rocks.com/en/tutorials/file/xhr2/
+    - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+    - MDN's docs - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open
+    - WHATWG Spec - https://xhr.spec.whatwg.org/
+    - W3C Spec - https://www.w3.org/TR/XMLHttpRequest/
+
+### jQuery's `.ajax()` method
+
+    - http://api.jquery.com/jQuery.ajax/
+
+### the Fetch API
+
+    - https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch
+    - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+    - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+    - https://fetch.spec.whatwg.org/#methods
+    - https://fetch.spec.whatwg.org/#requests
